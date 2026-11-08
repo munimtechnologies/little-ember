@@ -7,7 +7,8 @@ Keep it alive until 6 AM: tap falling twigs and pinecones to feed it, and tap sn
 (twice) and gusts of wind before they reach the flame. One night lasts about two and a half minutes.
 Mouse or touch (landscape).
 
-- Play: https://munimv2.itch.io/little-ember (the itch.io page goes up during the jam; until then the link may 404)
+- Play on itch.io: https://munimv2.itch.io/little-ember
+- Play on gd.games: https://gd.games/munimv2/little-ember
 - Jam: https://itch.io/jam/gdevelop-big-game-jam-10
 
 ## How it was made
@@ -49,7 +50,8 @@ node harness/play.mjs build steps/desktop.json out     # desktop play-through + 
 node harness/play.mjs build steps/phone.json out       # phone-sized play-through
 ```
 
-`game/game.json` also opens in the GDevelop 5 desktop app.
+`game/game.json` also opens in the GDevelop 5 desktop app. The gd.games release was published from that
+app on 7 November 2026 from the same project file, unchanged.
 
 The sandbox build of 7 November 2026 passed all 27 desktop checks and all 14 phone checks with no page or
 console errors. The fast test bot (170 ms reactions) reached dawn with 2,520 points, the slow bot (650 ms,
